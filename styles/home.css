@@ -96,6 +96,7 @@
 
 .nav-download:hover {
     background-color: var(--COLOR_SECONDARY);
+    color: var(--COLOR_WHITE);
 }
 
 
