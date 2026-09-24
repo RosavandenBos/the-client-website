@@ -350,20 +350,16 @@ a:hover {
 
 .footer-section a {
     color: var(--COLOR_WHITE);
+    text-decoration: none;
 }
 
 .footer-section a:hover {
-    text-decoration: underline;
+    color: var(--COLOR_LINK);
+    text-decoration: none;
 }
 
-.footer-bottom {
-    max-width: var(--MAX_WIDTH);
-    margin: 3rem auto 0;
-    padding-top: 1.5rem;
-
-    border-top: 1px solid #333333;
-
-    font-size: 0.9rem;
+.footer-section p a {
+    color: var(--COLOR_LINK);
 }
 
 
