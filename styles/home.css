@@ -260,19 +260,14 @@
    ======================================== */
 
 .footer {
-    padding: var(--SPACE_LARGE) 2rem 2rem;
-
-    background-color: #000000;
-    color: var(--COLOR_WHITE);
-}
-
-.footer-content {
-    max-width: var(--MAX_WIDTH);
-    margin: 0 auto;
+    padding: var(--SPACE_LARGE) max(2rem, calc((100% - var(--MAX_WIDTH)) / 2)) 2rem;
 
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     gap: 4rem;
+
+    background-color: #000000;
+    color: var(--COLOR_WHITE);
 }
 
 .footer-section h2 {
@@ -386,9 +381,7 @@
 
     .footer {
         padding: 3rem 1.5rem 1.5rem;
-    }
 
-    .footer-content {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
@@ -400,12 +393,4 @@
     .footer-section h2 {
         margin-bottom: 0.75rem;
     }
-
-    .footer-bottom {
-        margin-top: 2rem;
-        padding-top: 1rem;
-
-        text-align: center;
-    }
-
 }
