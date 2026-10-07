@@ -24,10 +24,12 @@
 
 .logo {
     margin-right: auto;
+}
 
-    font-family: var(--FONT_TITLE);
-    font-size: 1.5rem;
-    font-weight: bold;
+.logo img {
+    width: 180px;
+    height: auto;
+    display: block;
 }
 
 
